@@ -1,7 +1,7 @@
 # code your #valid_move? method here
 def valid_move?(board, position)
-  if (position_taken?(board, position) == true) && (position).between(0,8)
-    return false
+  if position_taken?(board, position) == true && (position).between(0,8)
+    return true
   end
 end
 
